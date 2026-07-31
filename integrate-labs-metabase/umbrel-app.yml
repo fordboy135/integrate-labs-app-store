@@ -32,6 +32,7 @@ dependencies: []
 repo: https://github.com/metabase/metabase
 support: https://github.com/metabase/metabase/issues
 port: 52115
+icon: https://raw.githubusercontent.com/fordboy135/integrate-labs-app-store/main/icons/metabase.png
 gallery: []
 path: ""
 defaultUsername: ""

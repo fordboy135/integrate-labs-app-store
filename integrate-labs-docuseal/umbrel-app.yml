@@ -33,6 +33,7 @@ dependencies: []
 repo: https://github.com/docusealco/docuseal
 support: https://github.com/docusealco/docuseal/issues
 port: 52113
+icon: https://raw.githubusercontent.com/fordboy135/integrate-labs-app-store/main/icons/docuseal.png
 gallery: []
 path: ""
 defaultUsername: ""

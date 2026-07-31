@@ -33,6 +33,7 @@ dependencies: []
 repo: https://github.com/nocodb/nocodb
 support: https://github.com/nocodb/nocodb/issues
 port: 52114
+icon: https://raw.githubusercontent.com/fordboy135/integrate-labs-app-store/main/icons/nocodb.png
 gallery: []
 path: ""
 defaultUsername: ""
