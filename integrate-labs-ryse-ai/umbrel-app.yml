@@ -1,0 +1,42 @@
+manifestVersion: 1.1
+id: integrate-labs-ryse-ai
+category: ai
+name: RYSE AI
+version: "2026.7.30"
+tagline: Your private RYSE operating workspace
+description: >-
+  RYSE AI is the private operating workspace for RYSE Platinum Partners —
+  a full AI agent that gets better the more you use it by creating its own
+  skills, storing your preferences, and updating its memory.
+
+
+  Use RYSE AI to browse the web, draft and edit documents, automate tasks,
+  connect channels like Telegram, save reusable skills, and remember important
+  details across sessions.
+
+
+  ## What It Does
+
+    - **Chat and act** - Ask questions, automate tasks, and let RYSE AI use tools for you.
+
+    - **Remembers your workflow** - Preferences, context, and reusable skills carry across sessions.
+
+    - **Manage it from the dashboard** - Configure settings, review activity, and monitor the agent from your browser.
+
+
+  Managed and supported by Integrate Labs.
+developer: Integrate Labs
+website: https://integratelabs.io
+dependencies: []
+repo: https://github.com/fordboy135/integrate-labs-app-store
+support: https://integratelabs.io
+port: 18790
+gallery: []
+path: "/chat"
+defaultUsername: ""
+defaultPassword: ""
+releaseNotes: >-
+  Initial Integrate Labs release, tracking Hermes Agent v2026.7.30 with RYSE
+  branding managed by Integrate Labs.
+submitter: Integrate Labs
+submission: https://github.com/fordboy135/integrate-labs-app-store

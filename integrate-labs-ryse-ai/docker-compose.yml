@@ -1,0 +1,27 @@
+version: "3.7"
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: integrate-labs-ryse-ai_web_1
+      APP_PORT: 18789
+
+  # Official Hermes dashboard + messaging gateway supervised by upstream s6.
+  # Image tracks getumbrel/umbrel-apps hermes-agent; bump deliberately after testing.
+  web:
+    image: ghcr.io/getumbrel/hermes-agent-umbrel:v2026.7.30@sha256:9690d13fcf2f3040e4f2577c76aaae57f80441c010c77642e33aec3c3b304e25
+    restart: on-failure
+    stop_grace_period: 1m
+    volumes:
+      - ${APP_DATA_DIR}/data/hermes:/opt/data
+    environment:
+      HERMES_UID: "1000"
+      HERMES_GID: "1000"
+      HERMES_DASHBOARD: "1"
+      HERMES_DASHBOARD_PORT: "18789"
+      # Trust Umbrel app-proxy auth instead of Hermes' dashboard login.
+      HERMES_UMBREL_APP_PROXY_AUTH: "1"
+      HERMES_TUI_DIR: "/app/umbrel-tui"
+      HERMES_UPSTREAM_TUI_ENTRY: "/opt/hermes/ui-tui/dist/entry.js"
+      HERMES_GATEWAY_BOOTSTRAP_STATE: "running"
+    command: ["gateway", "run"]

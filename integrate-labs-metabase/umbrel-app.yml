@@ -1,0 +1,40 @@
+manifestVersion: 1.1
+id: integrate-labs-metabase
+category: productivity
+name: Metabase
+version: "0.63.2.6"
+tagline: Dashboards and reporting for your business data
+description: >-
+  Metabase is a self-hosted business intelligence platform: connect your data,
+  ask questions in a point-and-click editor, and build shareable dashboards.
+
+
+  For a real-estate operation this is the reporting layer — deal-flow
+  dashboards, marketing performance, lead-source ROI, and monthly reviews,
+  built once and updated automatically.
+
+
+  ## Highlights
+
+    - **No SQL required** - Point-and-click question builder (SQL optional).
+
+    - **Dashboards** - Assemble charts into shareable, auto-refreshing dashboards.
+
+    - **Scheduled reports** - Email or Slack a dashboard on a schedule.
+
+    - **Connects widely** - Postgres, MySQL, SQLite, Google Sheets exports, and more.
+
+
+  Curated for Integrate Labs client boxes.
+developer: Metabase
+website: https://www.metabase.com
+dependencies: []
+repo: https://github.com/metabase/metabase
+support: https://github.com/metabase/metabase/issues
+port: 52115
+gallery: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
+submitter: Integrate Labs
+submission: https://github.com/fordboy135/integrate-labs-app-store

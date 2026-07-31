@@ -1,0 +1,14 @@
+version: "3.7"
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: integrate-labs-nocodb_server_1
+      APP_PORT: 8080
+
+  server:
+    image: nocodb/nocodb:2026.07.0@sha256:fb359673c42fb69058e880710e446f8039afeb64632ca8d8dfcfdcc407ebb058
+    restart: on-failure
+    stop_grace_period: 1m
+    volumes:
+      - ${APP_DATA_DIR}/data:/usr/app/data

@@ -1,0 +1,41 @@
+manifestVersion: 1.1
+id: integrate-labs-docuseal
+category: files
+name: DocuSeal
+version: "3.1.6"
+tagline: E-signatures for contracts, listings, and disclosures
+description: >-
+  DocuSeal is a self-hosted document signing platform — an open alternative to
+  DocuSign built for teams that want to keep signed documents on their own box.
+
+
+  Perfect for real-estate workflows: listing agreements, purchase contracts,
+  disclosures, and vendor agreements. Build reusable templates with drag-and-drop
+  fields, send signature requests by email, and download court-ready signed PDFs
+  with full audit trails.
+
+
+  ## Highlights
+
+    - **Reusable templates** - PDF and DOCX templates with drag-and-drop signature, date, and text fields.
+
+    - **Multiple signers** - Route documents to buyers, sellers, and agents in order.
+
+    - **Audit trail** - Every signature is logged and verifiable.
+
+    - **Your data** - Documents never leave your box.
+
+
+  Curated for Integrate Labs client boxes.
+developer: DocuSeal
+website: https://www.docuseal.com
+dependencies: []
+repo: https://github.com/docusealco/docuseal
+support: https://github.com/docusealco/docuseal/issues
+port: 52113
+gallery: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
+submitter: Integrate Labs
+submission: https://github.com/fordboy135/integrate-labs-app-store

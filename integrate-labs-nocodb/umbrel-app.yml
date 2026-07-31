@@ -1,0 +1,41 @@
+manifestVersion: 1.1
+id: integrate-labs-nocodb
+category: productivity
+name: NocoDB
+version: "2026.07.0"
+tagline: No-code database for leads, deals, and pipelines
+description: >-
+  NocoDB is a no-code database platform — an open alternative to Airtable that
+  runs entirely on your own box.
+
+
+  Built to be the operating base for a real-estate team: track leads, deals,
+  showings, and transaction pipelines in grid, kanban, calendar, and form views.
+  Share forms publicly to capture leads straight into your database, and invite
+  your team with granular permissions.
+
+
+  ## Highlights
+
+    - **Spreadsheet-simple** - Grid, kanban, gallery, calendar, and form views.
+
+    - **Lead capture forms** - Publish forms that write straight into your tables.
+
+    - **Automations & webhooks** - Trigger actions when records change.
+
+    - **API built in** - Every table gets a REST API for integrations.
+
+
+  Curated for Integrate Labs client boxes.
+developer: NocoDB
+website: https://nocodb.com
+dependencies: []
+repo: https://github.com/nocodb/nocodb
+support: https://github.com/nocodb/nocodb/issues
+port: 52114
+gallery: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
+submitter: Integrate Labs
+submission: https://github.com/fordboy135/integrate-labs-app-store
