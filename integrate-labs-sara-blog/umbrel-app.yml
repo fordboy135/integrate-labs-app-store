@@ -1,0 +1,21 @@
+manifestVersion: 1.1
+id: integrate-labs-sara-blog
+category: files
+name: Blog
+version: "1.0.0"
+tagline: Write and publish posts to rgroupsells.com
+description: >-
+  Opens the Blog page of the Sara AiOS — part of The Raudelunas Group
+  operating system by Integrate Labs.
+developer: Integrate Labs
+website: https://integratelabs.io
+repo: ""
+support: https://integratelabs.io
+port: 52123
+icon: https://integratelabs.b-cdn.net/aios/sara/tile-blog.png
+gallery: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
+submitter: Integrate Labs
+submission: https://integratelabs.io
