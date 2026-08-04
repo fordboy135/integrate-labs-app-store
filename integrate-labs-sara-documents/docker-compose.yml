@@ -8,6 +8,6 @@ services:
       PROXY_AUTH_ADD: "false"
 
   web:
-    image: caddy:2.8.4-alpine@sha256:4bcb1d4de6a827aa2eb2517e968e75b542c8fb8a557fbe96d2c8dc39e64fedd8
+    image: caddy:2.8.4-alpine
     restart: on-failure
     entrypoint: ["sh", "-c", "printf ':80 {\n  redir https://sara.integratelabs.app/documents 302\n}\n' > /tmp/Caddyfile && caddy run --config /tmp/Caddyfile --adapter caddyfile"]
